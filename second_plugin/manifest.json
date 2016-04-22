@@ -1,0 +1,12 @@
+{
+  "manifest_version":2,
+  "name":"dom plugin",
+  "version":"1.0",
+  "description":"操作DOM的扩展",
+  "content_scripts":[
+    {
+      "matches":["*://www.baidu.com/"],
+      "js":["js/update_dom.js"]
+    }
+  ]
+}
