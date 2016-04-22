@@ -4,7 +4,8 @@
   "version": "1.0",
   "description": "跨域服务",
   "permissions": [
-    "*://*.baidu.com/*"
+    "*://*.baidu.com/*",
+    "*://*.163.com/*"
   ],
   "browser_action": {
     "default_popup": "popup.html"
