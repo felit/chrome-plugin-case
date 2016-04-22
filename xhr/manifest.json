@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "xhr",
+  "version": "1.0",
+  "description": "跨域服务",
+  "permissions": [
+    "*://*.baidu.com/*"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
