@@ -3,9 +3,15 @@
   "name": "menu-test",
   "version": "0.0.1",
   "permissions": [
-    "contextMenus"
+    "contextMenus",
+    "notifications"
   ],
-  "browser_action":{
+ /* "browser_action": {
     "default_popup": "popup.html"
+  },*/
+  "background": {
+    "scripts": [
+      "js/menu.js"
+    ]
   }
 }
