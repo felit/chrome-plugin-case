@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "chrome file system api",
+  "version": "0.0.1",
+  "permissions": [
+    "fileSystem"
+  ],
+  "app": {
+    "background": {
+      "scripts": [
+        "js/main.js"
+      ]
+    }
+  },
+  "browser_action": {
+    /*"default_icon": {
+    },*/
+    "default_popup": "popup.html",
+    "default_title": "文件系统API"
+  }
+}
